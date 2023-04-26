@@ -49,15 +49,15 @@ export const Contact = () => {
             <IoMail size={30} /> hishanshrestha29@gmail.com
           </a>
           <br />
-          <a className="infoLink" href="">
+          <a className="infoLink" href="https://twitter.com/Hishan_Shrestha">
             <IoLogoTwitter color="#1877f2" size={30} /> Hishan Shrestha
           </a>{" "}
           <br />
-          <a className="infoLink" href="">
+          <a className="infoLink" href="https://www.linkedin.com/in/hishan-shrestha-2a03a5225/">
             <IoLogoLinkedin color="#1877f2" size={30} /> Hishan Shrestha
           </a>
           <br />
-          <a className="infoLink" href="">
+          <a className="infoLink" href="https://www.facebook.com/hishanshrestha1">
             <IoLogoFacebook color="#1877f2" size={30} /> Hishan Shrestha
           </a>
         </div>
