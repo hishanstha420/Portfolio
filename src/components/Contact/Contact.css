@@ -1,0 +1,79 @@
+.ContactPage {
+  width: 100vw;
+  padding-top: 80px;
+  padding-left: 80px;
+  padding-bottom: 80px;
+}
+.ContactWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  gap: 150px;
+}
+.ContactMe {
+  font-size: 32px;
+  color: #4bce4b;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.Contact.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 12px;
+}
+.infoLink {
+  margin: 10px;
+  text-decoration: none;
+  color: grey;
+  font-size: 20px;
+}
+.Form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 35%;
+}
+button {
+  width: 40%;
+  height: 50px;
+  background-color: #4bc1ce;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #f5f5f4;
+  color: #4bc1ce;
+  border: 2px solid #4bc1ce;
+}
+@media screen and (max-width: 800px) {
+  .ContactWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    gap: 50px;
+  }
+  .infoLink {
+    margin: 10px;
+    text-decoration: none;
+    color: grey;
+    font-size: 14px;
+  }
+
+  .ContactMe {
+    font-size: 28px;
+    text-align: left;
+    padding-left: 10px;
+  }
+
+  button {
+    width: auto;
+    font-size: 16px;
+  }
+}

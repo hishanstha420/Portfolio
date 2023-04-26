@@ -50,7 +50,7 @@ const About = () => {
           <a href="/Hishan_CV.pdf" download="Hishan_CV" target="_Blank">
             Hire Me
           </a>
-          <a href="#">Let's Talk</a>
+          <a href="#Contact">Let's Talk</a>
         </div>
       </div>
     </section>

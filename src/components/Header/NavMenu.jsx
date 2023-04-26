@@ -4,9 +4,9 @@ return(
     <nav className='navbar'>
         <a href="#Home">Home</a>
         <a href="#About">About</a>
-        <a href="#">Skills</a>
-        <a href="#">Projects</a>
-        <a href="#">Contact</a>
+        <a href="#Skills">Skills</a>
+        <a href="#Projects">Projects</a>
+        <a href="#Contact">Contact</a>
     </nav>
 )
 }
