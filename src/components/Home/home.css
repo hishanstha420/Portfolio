@@ -1,0 +1,97 @@
+.HomePage {
+  display: flex;
+  align-items: center;
+  padding: 0 90px;
+  width: 95vw;
+}
+.Home__content {
+  max-width: 700px;
+}
+.imgDiv {
+  height: min-content;
+  width: 50vw;
+  padding-right: 100px;
+}
+.img {
+  width: 600px;
+  height: 500px;
+}
+.Home__content > h1 {
+  line-height: 1.2;
+  font-size: 50px;
+  font-weight: 700;
+}
+.Home__content > h3 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #4bc1ce;
+}
+.Home__content > p {
+  margin: 20px 0 40px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 755px) {
+  .HomePage {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .Home__content {
+    margin-left: 0px;
+    width: 100vw;
+    height: min-content;
+    padding: 0px;
+  }
+  .img {
+    width: 400px;
+    height: 400px;
+  }
+  .imgDiv {
+    height: min-content;
+    width: 100vw;
+    margin-right: 0px;
+    padding-right: 20px;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  .h1 {
+    font-size: 1.3rem;
+  }
+
+  p {
+    font-size: large;
+  }
+}
+@media screen and (min-width: 756px) and (max-width: 1024px) {
+  .HomePage {
+    margin-top: 40px;
+    margin-left: 40px;
+    padding-left: 0px;
+  }
+
+  .img{
+    width: 450px;
+    height: 450px;
+  }
+  .imgDiv {
+    padding-right: 20px;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 1.3rem;
+  }
+
+  p {
+    font-size: large;
+  }
+}

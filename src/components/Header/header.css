@@ -1,0 +1,46 @@
+@media screen and (min-width:1250px) {
+    .header {
+      width: 100vw;
+      background-color: #f0f0f0; 
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      height: 80px;
+      align-items: center;
+      display: flex;
+      position: sticky;
+      justify-content: space-between;
+      top: 0;
+      
+      
+    }
+
+  }
+  .header
+{
+  background-color: #f0f0f0;
+  width: 100vw;
+}
+  .logo {
+    display: flex;
+    width: 250px;
+    margin-left: 90px;
+    
+  }
+  
+  .span {
+    color: #4bc1ce;
+    margin-left: 10px;
+  }
+  .navbar> a
+  {
+    text-decoration: none;
+    margin-left: 35px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+    margin-right: 20px;
+    
+  }
+  .navbar> a:hover, .navbar> a.active{
+    color: #4bc1ce;
+  }
+  
